@@ -12,19 +12,25 @@ function passedTime(){
           break;
         case 2:
             setTimeout( function() { 
-                            let result=new Date; let divide=result.getSeconds()-time.getSeconds(); console.log(`${divide} seconds have passed`);
+                            let result=new Date; 
+                            let divide=result.getSeconds()-time.getSeconds(); 
+                            console.log(`${divide} seconds have passed`);
                         }
             , 2000);
           break;
         case 3:
             setTimeout( function getDate() { 
-                let result=new Date; let divide=result.getSeconds()-time.getSeconds(); console.log(`${divide} seconds have passed`);
+                let result=new Date; 
+                let divide=result.getSeconds()-time.getSeconds(); 
+                console.log(`${divide} seconds have passed`);
             }
         , 4000);
           break;
           case 4:
             setTimeout( function getDate() { 
-                let result=new Date; let divide=result.getSeconds()-time.getSeconds(); console.log(`${divide} seconds have passed`);
+                let result=new Date; 
+                let divide=result.getSeconds()-time.getSeconds(); 
+                console.log(`${divide} seconds have passed`);
             }
         , 8000);
           break;
@@ -63,19 +69,22 @@ function passedTime2(){
             break;
           case 2:
             setTimeout( function getDate() { 
-                let result=sec-1; console.log(`${result} seconds are elapsed`);
+                let result=sec-1; 
+                console.log(`${result} seconds are elapsed`);
             }
         , 2000);
             break;
           case 3:
             setTimeout( function getDate() { 
-                let result=sec-1; console.log(`${result} seconds are elapsed`);
+                let result=sec-1; 
+                console.log(`${result} seconds are elapsed`);
             }
         , 4000);
             break;
             case 4:
                 setTimeout( function getDate() { 
-                    let result=sec-1; console.log(`${result} seconds are elapsed`);
+                    let result=sec-1; 
+                    console.log(`${result} seconds are elapsed`);
                 }
             , 6000);
             break;
